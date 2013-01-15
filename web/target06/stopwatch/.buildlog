@@ -757,3 +757,24 @@ build.dart --changed=web/out/stopwatch.html_bootstrap.dart.js --changed=web/out/
 
 build.dart finished [192 ms]
 
+---
+build.dart 
+[{"method":"mapping","params":{"from":"web/stopwatch.html","to":"web/out/stopwatch.html"}}]
+Total time spent on web/stopwatch.html                       -- [32m164 ms[0m
+build.dart finished [359 ms]
+
+---
+build.dart --changed=web/out/stopwatch.dart --changed=web/out/stopwatch.html --changed=web/out/stopwatch.html_b...
+
+build.dart finished [192 ms]
+
+---
+build.dart --changed=web/out/stopwatch.dart --changed=web/out/stopwatch.html --changed=web/out/stopwatch.html_b...
+
+build.dart finished [191 ms]
+
+---
+build.dart --changed=web/out/stopwatch.html_bootstrap.dart.js --changed=web/out/stopwatch.html_bootstrap.dart.j...
+
+build.dart finished [179 ms]
+
