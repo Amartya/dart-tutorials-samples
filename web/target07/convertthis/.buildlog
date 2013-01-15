@@ -96,3 +96,19 @@ build.dart --changed=web/out/convertThis.html_bootstrap.dart.js --changed=web/ou
 
 build.dart finished [185 ms]
 
+---
+build.dart 
+[{"method":"mapping","params":{"from":"web/convertThis.html","to":"web/out/convertThis.html"}}]
+Total time spent on web/convertThis.html                     -- [32m256 ms[0m
+build.dart finished [448 ms]
+
+---
+build.dart --changed=web/out/convertThis.html --changed=web/out/convertThis.html_bootstrap.dart --changed=web/o...
+
+build.dart finished [208 ms]
+
+---
+build.dart --changed=web/out/convertThis.html_bootstrap.dart.js --changed=web/out/convertThis.html_bootstrap.da...
+
+build.dart finished [192 ms]
+
