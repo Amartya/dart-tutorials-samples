@@ -294,3 +294,24 @@ build.dart --changed=web/out/adlibitum.dart --changed=web/out/adlibitum.html --c
 
 build.dart finished [193 ms]
 
+---
+build.dart 
+[{"method":"mapping","params":{"from":"web/adlibitum.html","to":"web/out/adlibitum.html"}}]
+Total time spent on web/adlibitum.html                       -- [32m204 ms[0m
+build.dart finished [416 ms]
+
+---
+build.dart --changed=web/out/adlibitum.dart --changed=web/out/adlibitum.html --changed=web/out/adlibitum.html_b...
+
+build.dart finished [221 ms]
+
+---
+build.dart --changed=web/out/adlibitum.dart --changed=web/out/adlibitum.html --changed=web/out/adlibitum.html_b...
+
+build.dart finished [201 ms]
+
+---
+build.dart --changed=web/out/adlibitum.html_bootstrap.dart.js --changed=web/out/adlibitum.html_bootstrap.dart.j...
+
+build.dart finished [182 ms]
+

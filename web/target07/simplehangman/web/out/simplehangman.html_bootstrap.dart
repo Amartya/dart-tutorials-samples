@@ -1,6 +1,6 @@
 library bootstrap;
 
-import 'drseuss.dart' as userMain;
+import 'simplehangman.dart' as userMain;
 
 main() {
   userMain.main();

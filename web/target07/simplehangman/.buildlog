@@ -2892,3 +2892,24 @@ build.dart --changed=web/out/simplehangman.html_bootstrap.dart.js --changed=web/
 
 build.dart finished [186 ms]
 
+---
+build.dart 
+[{"method":"mapping","params":{"from":"web/simplehangman.html","to":"web/out/simplehangman.html"}}]
+Total time spent on web/simplehangman.html                   -- [32m211 ms[0m
+build.dart finished [406 ms]
+
+---
+build.dart --changed=web/out/simplehangman.dart --changed=web/out/simplehangman.html --changed=web/out/simpleha...
+
+build.dart finished [182 ms]
+
+---
+build.dart --changed=web/out/simplehangman.dart --changed=web/out/simplehangman.html --changed=web/out/simpleha...
+
+build.dart finished [193 ms]
+
+---
+build.dart --changed=web/out/simplehangman.html_bootstrap.dart.js --changed=web/out/simplehangman.html_bootstra...
+
+build.dart finished [184 ms]
+
