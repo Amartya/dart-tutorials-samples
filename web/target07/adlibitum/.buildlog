@@ -315,3 +315,8 @@ build.dart --changed=web/out/adlibitum.html_bootstrap.dart.js --changed=web/out/
 
 build.dart finished [182 ms]
 
+---
+build.dart --changed=pubspec.lock --changed=web/out/adlibitum.dart --changed=web/out/adlibitum.html --changed=w...
+
+build.dart finished [206 ms]
+

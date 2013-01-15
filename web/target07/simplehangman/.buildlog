@@ -2913,3 +2913,8 @@ build.dart --changed=web/out/simplehangman.html_bootstrap.dart.js --changed=web/
 
 build.dart finished [184 ms]
 
+---
+build.dart --changed=pubspec.lock --changed=web/out/simplehangman.dart --changed=web/out/simplehangman.html --c...
+
+build.dart finished [194 ms]
+
