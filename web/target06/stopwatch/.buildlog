@@ -778,3 +778,35 @@ build.dart --changed=web/out/stopwatch.html_bootstrap.dart.js --changed=web/out/
 
 build.dart finished [179 ms]
 
+---
+build.dart 
+[{"method":"mapping","params":{"from":"web/stopwatch.html","to":"web/out/stopwatch.html"}}]
+Total time spent on web/stopwatch.html                       -- [32m153 ms[0m
+build.dart finished [340 ms]
+
+---
+build.dart --changed=web/out/stopwatch.dart --changed=web/out/stopwatch.html --changed=web/out/stopwatch.html_b...
+
+build.dart finished [194 ms]
+
+---
+build.dart --changed=web/out/stopwatch.html_bootstrap.dart.js --changed=web/out/stopwatch.html_bootstrap.dart.j...
+
+build.dart finished [188 ms]
+
+---
+build.dart 
+[{"method":"mapping","params":{"from":"web/stopwatch.html","to":"web/out/stopwatch.html"}}]
+Total time spent on web/stopwatch.html                       -- [32m150 ms[0m
+build.dart finished [346 ms]
+
+---
+build.dart --changed=web/out/stopwatch.dart --changed=web/out/stopwatch.html --changed=web/out/stopwatch.html_b...
+
+build.dart finished [183 ms]
+
+---
+build.dart --changed=web/out/stopwatch.html_bootstrap.dart.js --changed=web/out/stopwatch.html_bootstrap.dart.j...
+
+build.dart finished [183 ms]
+

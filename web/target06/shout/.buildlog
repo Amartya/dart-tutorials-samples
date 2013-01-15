@@ -1,0 +1,16 @@
+---
+build.dart 
+[{"method":"mapping","params":{"from":"web/shout.html","to":"web/out/shout.html"}}]
+Total time spent on web/shout.html                           -- [32m169 ms[0m
+build.dart finished [380 ms]
+
+---
+build.dart --changed=web/out/shout.dart --changed=web/out/shout.html --changed=web/out/shout.html_bootstrap.dar...
+
+build.dart finished [211 ms]
+
+---
+build.dart --changed=web/out/shout.html_bootstrap.dart.js --changed=web/out/shout.html_bootstrap.dart.js.deps -...
+
+build.dart finished [200 ms]
+
