@@ -1,0 +1,5 @@
+name:  adlibitum
+description:  Wacky word wit
+
+dependencies:
+  web_ui: any
