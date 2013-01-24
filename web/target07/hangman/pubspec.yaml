@@ -1,0 +1,5 @@
+name:  Hangman
+description:  Don't get hung!
+
+dependencies:
+  web_ui: any
