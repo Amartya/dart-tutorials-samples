@@ -3905,7 +3905,7 @@ $$.JsonParser = {"": "Object;source>,listener>",
   }
 };
 
-$$.makerequest_anon = {"": "Closure;httpRequest_0",
+$$.makeRequest_anon = {"": "Closure;httpRequest_0",
   call$1: function(e) {
     return $.requestComplete(this.httpRequest_0);
   }
@@ -5584,14 +5584,14 @@ $.JsonParser$ = function(source, listener) {
 };
 
 $.main = function() {
-  document.query$1("#getwords").get$onClick().listen$1($.makerequest);
-  $.wordlist = document.query$1("#wordlist");
+  document.query$1("#getWords").get$onClick().listen$1($.makeRequest);
+  $.wordList = document.query$1("#wordList");
 };
 
-$.makerequest = function(e) {
+$.makeRequest = function(e) {
   var httpRequest = new XMLHttpRequest();
   httpRequest.open$2("GET", "portmanteaux.json");
-  httpRequest.get$onLoadEnd().listen$1(new $.makerequest_anon(httpRequest));
+  httpRequest.get$onLoadEnd().listen$1(new $.makeRequest_anon(httpRequest));
   httpRequest.send$1("");
 };
 
@@ -5602,7 +5602,7 @@ $.requestComplete = function(request) {
     if (typeof portmanteaux !== "string" && (typeof portmanteaux !== "object" || portmanteaux === null || portmanteaux.constructor !== Array && !portmanteaux.$isJavaScriptIndexingBehavior()))
       return $.requestComplete$bailout(1, portmanteaux);
     for (i = 0; i < portmanteaux.length; ++i) {
-      t1 = $.wordlist.get$children();
+      t1 = $.wordList.get$children();
       if (i >= portmanteaux.length)
         throw $.ioore(i);
       t2 = portmanteaux[i];
@@ -5611,7 +5611,7 @@ $.requestComplete = function(request) {
       $.add(t1, t3);
     }
   } else {
-    t1 = $.wordlist.get$children();
+    t1 = $.wordList.get$children();
     t2 = "Request failed, status={" + $.S(request) + ".status}";
     t3 = document.$$dom_createElement$1("li");
     t3.set$text(t2);
@@ -5631,7 +5631,7 @@ $.requestComplete$bailout = function(state0, portmanteaux) {
           case 1:
             state0 = 0;
             for (t1 = $.getInterceptor$JSStringJSArray(portmanteaux), i = 0; $.CONSTANT1.$lt(i, t1.get$length(portmanteaux)); ++i) {
-              t2 = $.wordlist.get$children();
+              t2 = $.wordList.get$children();
               t3 = t1.$index(portmanteaux, i);
               t4 = document.$$dom_createElement$1("li");
               t4.set$text(t3);
@@ -5639,7 +5639,7 @@ $.requestComplete$bailout = function(state0, portmanteaux) {
             }
         }
       else {
-        t1 = $.wordlist.get$children();
+        t1 = $.wordList.get$children();
         t2 = "Request failed, status={" + $.S(request) + ".status}";
         t3 = document.$$dom_createElement$1("li");
         t3.set$text(t2);
@@ -5678,8 +5678,8 @@ $._nullErrorHandler.call$1 = $._nullErrorHandler;
 $._nullErrorHandler.$name = "_nullErrorHandler";
 $._nullDoneHandler.call$0 = $._nullDoneHandler;
 $._nullDoneHandler.$name = "_nullDoneHandler";
-$.makerequest.call$1 = $.makerequest;
-$.makerequest.$name = "makerequest";
+$.makeRequest.call$1 = $.makeRequest;
+$.makeRequest.$name = "makeRequest";
 Isolate.$finishClasses($$);
 $$ = {};
 $.List = {builtin$cls: 'List'};
@@ -5708,7 +5708,7 @@ $.lazyPort = null;
 $.ReceivePortImpl__nextFreeId = 1;
 $.Primitives_hashCodeSeed = 0;
 $._getTypeNameOf = null;
-$.wordlist = null;
+$.wordList = null;
 $.$$and = function(receiver, a0) {
   return $.getInterceptor$JSNumber(receiver).$and(receiver, a0);
 };
