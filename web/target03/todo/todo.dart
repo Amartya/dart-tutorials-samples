@@ -6,7 +6,7 @@ UListElement toDoList;
 void main() {
   toDoInput = query('#to-do-input');
   toDoList = query('#to-do-list');
-  toDoInput.on.change.add(addToDoItem);
+  toDoInput.onChange.listen(addToDoItem);
 }
 
 void addToDoItem(Event e) {
